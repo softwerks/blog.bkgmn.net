@@ -1,0 +1,1 @@
+# blog.bkgmn.net
