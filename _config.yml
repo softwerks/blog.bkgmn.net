@@ -12,3 +12,8 @@ title:          Backgammon Network
 description:    "Blog"
 baseurl:        "/"
 url:            "https://blog.bkgmn.net"
+
+# Build settings
+markdown:       kramdown
+include:
+  - _pages
