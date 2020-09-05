@@ -1,3 +1,0 @@
-# Backgammon Network
-
-Test paragraph.
