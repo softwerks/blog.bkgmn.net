@@ -1,2 +1,3 @@
-import 'blog/base';
-import 'blog/layout';
+@use 'normalize';
+@use 'blog/base';
+@use 'blog/layout';
