@@ -17,12 +17,12 @@ layout: default
 </div>
 <div class="pagination">
     {% if paginator.previous_page %}
-    <a href="paginator.previous_page_path" title="Previous Page">
+    <a href="{{ paginator.previous_page_path }}" title="Previous Page">
         <div class="arrow">←</div>
     </a>
     {% endif %}
     {% if paginator.next_page %}
-    <a class="next" href="paginator.next_page_path" title="Next Page">
+    <a class="next" href="{{ paginator.next_page_path }}" title="Next Page">
         <div class="arrow next">→</div>
     </a>
     {% endif %}
