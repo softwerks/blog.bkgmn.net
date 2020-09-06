@@ -14,16 +14,16 @@ layout: default
         </div>
     </div>
     {% endfor %}
-    <div class="pagination">
-        {% if paginator.previous_page %}
-        <a href="#" title="Previous Page">
-            <div class="arrow">←</div>
-        </a>
-        {% endif %}
-        {% if paginator.next_page %}
-        <a class="next" href="#" title="Next Page">
-            <div class="arrow next">→</div>
-        </a>
-        {% endif %}
-    </div>
+</div>
+<div class="pagination">
+    {% if paginator.previous_page %}
+    <a href="#" title="Previous Page">
+        <div class="arrow">←</div>
+    </a>
+    {% endif %}
+    {% if paginator.next_page %}
+    <a class="next" href="#" title="Next Page">
+        <div class="arrow next">→</div>
+    </a>
+    {% endif %}
 </div>
