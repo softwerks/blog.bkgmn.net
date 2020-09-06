@@ -44,7 +44,6 @@ $color-link: #0472f1;
         
         .article {
             flex-basis: 50%;
-            order: 1;
             
             p a {
                 color: $color-link;
@@ -73,7 +72,6 @@ $color-link: #0472f1;
             
             .first {
                 flex-basis: 100%;
-                order: 0;
             }
             
             .date {
