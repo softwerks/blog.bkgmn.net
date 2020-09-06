@@ -2,6 +2,10 @@
 layout: default
 ---
 
+<div class="header">
+    <h1>Blog</h1>
+    <div class="feed"><a href="{{ site.url }}/feed.xml" title="Feed"><div class="icon"></div></a></div>
+</div>
 <div class="blog">
     {% for post in paginator.posts %}
     <div class="article" style="order: {{ forloop.index }};">
