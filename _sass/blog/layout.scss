@@ -45,6 +45,10 @@ $color-link: #0472f1;
         .article {
             flex-basis: 50%;
             
+            :first-child {
+                flex-basis: 100%;
+            }
+            
             p a {
                 color: $color-link;
             }
@@ -73,10 +77,6 @@ $color-link: #0472f1;
             .date {
                 font-size: 0.8rem;
             }
-        }
-        
-        .article:first-child {
-            flex-basis: 100%;
         }
     }
     
