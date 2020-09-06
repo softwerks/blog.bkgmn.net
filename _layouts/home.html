@@ -4,7 +4,7 @@ layout: default
 
 <div class="blog">
     {% for post in paginator.posts %}
-    <div class="article first" style="order: {{ forloop.index }};">
+    <div class="article" style="order: {{ forloop.index }};">
         <div class="inner">
             <a href="{{ post.url }}"><h1>{{ post.title }}</h1></a>
             <div class="date">{{ post.date | date: "%B %d, %Y" }}</div>
