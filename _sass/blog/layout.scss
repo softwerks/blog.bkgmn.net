@@ -70,13 +70,13 @@ $color-link: #0472f1;
                 }
             }
             
-            .first {
-                flex-basis: 100%;
-            }
-            
             .date {
                 font-size: 0.8rem;
             }
+        }
+        
+        .first {
+            flex-basis: 100%;
         }
     }
     
