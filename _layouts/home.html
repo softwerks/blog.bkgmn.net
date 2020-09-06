@@ -7,8 +7,10 @@ layout: default
     <div class="article first" style="order: {{ forloop.index }};">
         <div class="inner">
             <a href="{{ post.url }}"><h1>{{ post.title }}</h1></a>
-            <div class="date">{{ post.date }}</div>
-            {{ post.content }}
+            <div class="date">{{ post.date | date: "%B %d, %Y" }}</div>
+            <div class="post">
+                {{ post.content }}
+            </div>
         </div>
     </div>
     {% endfor %}
