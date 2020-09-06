@@ -19,7 +19,11 @@ layout: default
             </a>
             <div class="date">{{ post.date | date: "%B %d, %Y" }}</div>
             <div class="post">
+                {% if forloop.index == 1 %}
                 {{ post.content }}
+                {% else %}
+                {{ post.content | strip_html | truncatewords: 32 }}
+                {% endif %}
             </div>
         </div>
     </div>
