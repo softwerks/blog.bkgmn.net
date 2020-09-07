@@ -4,7 +4,7 @@ layout: default
 
 <div class="header">
     <h1>Backgammon Network</h1>
-    <div class="feed"><a href="{{ site.url }}/feed.xml" title="Feed"><div class="icon"></div></a></div>
+    <div class="feed"><a href="{{ feed.xml | prepend: site.baseurl }}" title="Feed"><div class="icon"></div></a></div>
 </div>
 <div class="archive">
     {% for post in paginator.posts %}
@@ -33,4 +33,8 @@ layout: default
     </a>
     {% endif %}
 </div>
-<div class="footer">&copy; <time datetime="{{ site.time }}">{{ site.time | date: '%Y' }}</time> <a href="https://www.softwerks.com">Softwerks LLC</a></div>
+<div class="footer">
+    "&copy; "
+    <time datetime="{{ site.time }}">{{ site.time | date: '%Y' }}</time>
+    <a href="{{ site.author.url }}">{{ site.author.name }}</a>
+</div>
