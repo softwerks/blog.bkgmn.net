@@ -15,5 +15,5 @@ plugins:
   - jekyll-sitemap
   - jemoji
 
-permalink: /:year-:month-:day/:title
+permalink: pretty
 paginate:  5
