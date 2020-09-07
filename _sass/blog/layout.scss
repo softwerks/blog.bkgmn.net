@@ -43,6 +43,7 @@ $color-shadow: #aaa;
         
         .article {
             flex-basis: 50%;
+            display: flex;
 
             p a {
                 color: $color-link;
@@ -58,11 +59,11 @@ $color-shadow: #aaa;
             
             .inner {
                 background-color: $color-blog;
-                display: block;
                 margin: 0.5rem;
                 padding: 0.25rem 0.5rem 0.25rem 0.5rem;
                 border-radius: 0.25rem;
                 box-shadow: 0 0 0.25rem $color-shadow;
+                flex-grow: 1;
                 
                 h1, h2 {
                     margin: 0;
