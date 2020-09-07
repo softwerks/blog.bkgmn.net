@@ -1,5 +1,6 @@
 $color-blog: #ebebeb;
 $color-link: #0472f1;
+$color-shadow: #aaa;
 
 .content {
     max-width: 48rem;
@@ -39,8 +40,6 @@ $color-link: #0472f1;
     .blog {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
-        border-radius: 0.25rem;
         
         .article {
             flex-basis: 50%;
@@ -60,11 +59,10 @@ $color-link: #0472f1;
             .inner {
                 background-color: $color-blog;
                 display: block;
-                height: 100%;
                 margin: 0.5rem;
                 padding: 0.25rem 0.5rem 0.25rem 0.5rem;
                 border-radius: 0.25rem;
-                box-shadow: 0 0 0.25rem #aaa;
+                box-shadow: 0 0 0.25rem $color-shadow;
                 
                 h1, h2 {
                     margin: 0;
