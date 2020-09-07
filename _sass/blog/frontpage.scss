@@ -5,6 +5,21 @@ $color-shadow: #aaa;
 .frontpage {
     display: flex;
     flex-wrap: wrap;
+    
+    .title {
+        
+        font: {
+            size: 2.5rem;
+            weight: bold;
+        }
+    }
+    
+    .title-small {
+        font: {
+            size: 1.5rem;
+            weight: bold;
+        }
+    }
 
     .article {
         flex-basis: 50%;
