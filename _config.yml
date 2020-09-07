@@ -3,6 +3,9 @@ description: The latest news from www.bkgmn.net.
 url: https://blog.bkgmn.net
 author: Softwerks LLC
 
+include:
+  - _pages
+
 plugins:
   - jekyll-feed
   - jekyll-paginate
