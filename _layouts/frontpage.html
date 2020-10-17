@@ -4,7 +4,7 @@ layout: default
 
 <div class="header">
     <div class="site-title"><a href="{{ site.url }}">Blog</a></div>
-    <div class="feed"><a href="{{ site.url }}/feed.xml" title="Feed"><div class="icon"></div></a></div>
+    <div class="feed"><a href="{{ '/feed.xml' | absolute_url }}" title="Feed"><div class="icon"></div></a></div>
 </div>
 <div class="frontpage">
     {% for post in site.posts limit:5 %}
