@@ -4,7 +4,7 @@ layout: default
 
 <div class="header">
     <div class="site-title">Backgammon Network</div>
-    <div class="feed"><a href="{{ feed.xml | prepend: site.baseurl }}" title="Feed"><div class="icon"></div></a></div>
+    <div class="feed"><a href="{{ '/feed.xml' | absolute_url }}" title="Feed"><div class="icon"></div></a></div>
 </div>
 <div class="archive">
     {% for post in paginator.posts %}
