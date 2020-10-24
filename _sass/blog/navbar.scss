@@ -1,0 +1,19 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: rgb(220 220 220);
+    
+    a {
+        color: rgb(0 0 0);
+        display: inline-flex;
+        align-items: center;
+        font-weight: bold;
+    }
+    
+    .icon {
+        height: 1em;
+        width: 1em;
+        margin: 1rem;
+    }
+}
