@@ -3,8 +3,6 @@ layout: post
 title: "Introducing the Backgammon Network"
 author: "Sam"
 ---
-Welcome to the [Backgammon Network](https://www.bkgmn.net), a free, open source, multiplayer backgammon service.
-
 <div class="embed-container noprint">
     <div class="video-responsive noprint">
         <iframe
@@ -14,6 +12,8 @@ Welcome to the [Backgammon Network](https://www.bkgmn.net), a free, open source,
         </iframe>
     </div>
 </div>
+
+Welcome to the [Backgammon Network](https://www.bkgmn.net), a free, open source, multiplayer backgammon service.
 
 I'm [Sam](https://www.sambeirne.com). The Backgammon Network started as a way for me to familiarize myself with modern web technologies, like WebSockets and web components. My background is in game development, and a multiplayer browser-based game seemed like the perfect way to hone my skills.
 
